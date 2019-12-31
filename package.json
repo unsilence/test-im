@@ -1,0 +1,28 @@
+{
+  "name": "socket-ts-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "fs-extra": "^8.0.1",
+    "log4js": "^4.3.0",
+    "node-fetch": "^2.5.0",
+    "socket.io-client": "^2.2.0",
+    "typescript": "^3.4.5",
+    "url-search-params": "^1.1.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "@types/node-fetch": "^2.3.3",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/uuid": "^3.4.4"
+  }
+}
